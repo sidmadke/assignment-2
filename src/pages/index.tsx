@@ -48,7 +48,7 @@ export default function Home() {
           </div>
           <button className='p-3 bg-white text-black rounded-md mt-5 font-semibold' style={{ marginLeft: 422 }}>Execute</button>
         </div>
-        <div className='col-span-3 row-span-4 border-2 border-gray-900 rounded-xl gap-10 p-10'>{inputValue > 200 ? <p>Invalid Input</p> : <p>{inputValue}</p>} </div>
+        <div className='col-span-3 row-span-4 border-2 border-gray-900 rounded-xl gap-10 p-10'>{inputValue! > 200 ? <p>Invalid Input</p> : <p>{inputValue}</p>} </div>
         <div className='col-span-3 row-span-2 border-2 border-gray-900 rounded-xl gap-10'></div>
       </div>
     </>
